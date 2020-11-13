@@ -22,7 +22,32 @@ window.onload = function () {
     
     });
 
+
+    document.getElementById("featured").addEventListener("mouseout", function(e) {
+    
+        var figCap = document.getElementById("featured").getElementsByTagName('figcaption')[0];
+        
+        console.log(figCap);
+        
+        figCap.style.opacity = 0;
+        
+      
+        
+        });
+    
+    document.getElementById("featured").addEventListener("mouseover", function(e) {
+    
+    var figCap = document.getElementById("featured").getElementsByTagName('figcaption')[0];
+    
+    console.log(figCap);
+    
+    figCap.style.opacity = 0.8;
+   
+    
+    });
+    
+
    
  
-    
+
     };
