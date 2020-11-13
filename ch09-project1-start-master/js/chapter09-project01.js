@@ -49,36 +49,4 @@ function BlurFunc1(){
     museum.classList.remove("error");
     }
     
-    function preventDefault(){
-    var title=document.getElementById("title");
-    var description=document.getElementById("description");
-    var medium=document.getElementById("medium");
-    var year=document.getElementById("year");
-    var museum=document.getElementById("museum");
     
-    if(title.value==""){
-    title.classList.add("error");
-    }
-    else{
-    title.classList.remove("error");
-    }
-    
-    
-    if(description.value==""){
-    description.classList.add("error");
-    }
-    else{
-    description.classList.remove("error");
-    }
-    
-    
-    if(year.value==""){
-    year.classList.add("error");
-    }
-    else{
-    year.classList.remove("error");
-    }
-    
-    
-    return(false);
-    }
